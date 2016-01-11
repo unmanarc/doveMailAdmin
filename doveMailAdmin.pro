@@ -12,36 +12,36 @@ TARGET = doveMailAdmin
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    dialog_addserver.cpp \
-    dialog_domains.cpp \
-    dialog_users.cpp \
-    dialog_domains_add.cpp \
-    dialog_changepassword.cpp \
-    qssha256.cpp \
-    dialog_users_add.cpp \
-    dialog_users_addforwarding.cpp
+SOURCES += src/main.cpp\
+        src/mainwindow.cpp \
+    src/dialog_addserver.cpp \
+    src/dialog_domains.cpp \
+    src/dialog_users.cpp \
+    src/dialog_domains_add.cpp \
+    src/dialog_changepassword.cpp \
+    src/qssha256.cpp \
+    src/dialog_users_add.cpp \
+    src/dialog_users_addforwarding.cpp
 
-HEADERS  += mainwindow.h \
-    dialog_addserver.h \
-    dialog_domains.h \
-    dialog_users.h \
-    serverparams.h \
-    dialog_domains_add.h \
-    dialog_changepassword.h \
-    qssha256.h \
-    dialog_users_add.h \
-    dialog_users_addforwarding.h
+HEADERS  += src/mainwindow.h \
+    src/dialog_addserver.h \
+    src/dialog_domains.h \
+    src/dialog_users.h \
+    src/serverparams.h \
+    src/dialog_domains_add.h \
+    src/dialog_changepassword.h \
+    src/qssha256.h \
+    src/dialog_users_add.h \
+    src/dialog_users_addforwarding.h
 
-FORMS    += mainwindow.ui \
-    dialog_addserver.ui \
-    dialog_domains.ui \
-    dialog_users.ui \
-    dialog_domains_add.ui \
-    dialog_changepassword.ui \
-    dialog_users_add.ui \
-    dialog_users_addforwarding.ui
+FORMS    += src/mainwindow.ui \
+    src/dialog_addserver.ui \
+    src/dialog_domains.ui \
+    src/dialog_users.ui \
+    src/dialog_domains_add.ui \
+    src/dialog_changepassword.ui \
+    src/dialog_users_add.ui \
+    src/dialog_users_addforwarding.ui
 
 CONFIG += mobility
 MOBILITY = 
@@ -51,5 +51,6 @@ RESOURCES += \
 
 DISTFILES += \
     EXTERNAL_LICENCES \
-    LICENSE
+    LICENSE \
+    README.md
 
