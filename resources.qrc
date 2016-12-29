@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/data_storage.svg</file>
+        <file>icons/mail.svg</file>
+        <file>icons/minus.svg</file>
+        <file>icons/sign-add.svg</file>
+        <file>icons/forward.svg</file>
+        <file>icons/lock.svg</file>
+    </qresource>
+</RCC>
